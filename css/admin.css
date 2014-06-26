@@ -1,0 +1,81 @@
+ * { margin:0; }
+html, body { height:100%; }
+
+h2, h3, h4, h5 { color:#88A616; font-family: "Fredoka One";text-transform: uppercase;}
+
+body { margin:0 auto; background: #222222 url(../images/bg-checker.png); }
+div#wrapper { height:auto !important; height:100%; margin:0 auto -50px; min-height:100%; width:960px; }
+
+div#top-navi { display:block; margin:50px 0 0 0; }
+div#top-navi ul { list-style:none }
+div#top-navi ul li { float:right; margin:0px 10px 0px 10px; }
+div#top-navi a { text-decoration:none; }
+div#top-navi a:hover { text-decoration:underline; }
+
+div#container { display:inline-block; margin:10px auto; width:960px; }
+
+div#sidebar { text-align:center;background:#efefef; width:220px; display:inline; float:left; margin:0 10px 0 0; min-height:550px; position:relative; }
+div#sidebar .error {margin-left:-35px;margin-top:-20px;color:red;font-size: 12px}
+div#sidebar .error ul {list-style:none}
+div#sidebar a#register_link {text-decoration: none; font-size: 13px; margin-left:145px;}
+div#sidebar a:hover#register_link {}
+
+div#content{ background:#ccc; width:720px; display:inline; float:left; margin:0 0 0 10px; min-height:550px; position:relative; }
+div#content_title{padding:10px;}
+div#content_contents{padding:20px;}
+div#reasons { margin:0px 5px 0px;padding:5px;background:#efefaf;display:inline-block;width:200px; }
+div#reasons h2 { color:black;margin-top:-16px;text-align: center }
+ 
+div#head_name{}
+div#head_name h2{border-bottom:1px solid black;}
+div#side_navi{}
+div#side_navi #login_form {margin:1em;}
+div#side_navi #login_form input[type=text], input[type=password] {width: 54%}
+div#side_navi #login_form input[type=submit] {margin-top:5px;margin-bottom:3px;float:right;border: 1px; background: #aa2828; color: #e3e3e3; padding:.2em; cursor:pointer;}
+div#side_navi #login_form input[type=submit]:hover {background:#9a2222;}
+
+div#reg_form {}
+div#reg_form .error {color:red;font-size: 15px}
+div#reg_form .error ul {list-style:none}
+
+div#push { height:100px; }
+div#footer { background:#999; height:100px; text-align:center; }
+
+
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+/** http://ryanfait.com/resources/footer-stick-to-bottom-of-page/ */
+
+/**ADMINSTRATOR AREA */
+
+div#admin_content{ background:#ccc; width:960px; display:inline; float:left; margin:0 0 0 10px; min-height:550px; position:relative; }
+div#admin_content_title{padding:10px;}
+div#admin_contents{padding:20px;}
+div#admin_contents #reasons { margin:15px;padding:5px;background:#efefaf;display:inline-block;width:400px; }
+div#admin_contents #reasons h2 { color:black;margin-top:-16px;text-align: center }
+
+div#admin_contents #admin_login_form {border-radius:35px 0 35px 0;width:300px; height:150px; background-color:#efefef;margin-top:87px;margin-left:-9em;}
+div#admin_contents #admin_login_form input[type=text], input[type=password] {width: 100%}
+div#admin_contents #admin_login_form input[type=submit] {margin-top:5px;margin-bottom:3px;float:right;border: 1px; background: #aa2828; color: #e3e3e3; padding:.2em; cursor:pointer;}
+div#admin_contents #admin_login_form input[type=submit]:hover {background:#9a2222;}
+

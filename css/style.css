@@ -1,0 +1,137 @@
+ * { margin:0; }
+html, body { height:100%; }
+
+h2, h3, h4, h5 { color:#88A616; font-family: "Fredoka One";text-transform: uppercase;}
+
+body { margin:0 auto; background: #222222 url(../images/bg-checker.png); }
+div#wrapper { height:auto !important; height:100%; margin:0 auto -50px; min-height:100%; width:960px; }
+
+div#top-navi { font-size:24px;font-family:Consolas;color:#4D9ED8;display:block; margin:50px 0 0 0;  }
+div#top-navi ul { list-style:none;color:#4D9ED8; }
+div#top-navi ul li { float:right; margin:0px 10px 0px 10px;color:#4D9ED8; }
+div#top-navi a { text-decoration:none; color:#4D9ED8; }
+div#top-navi a:hover { border-bottom:2px solid #88A616; }
+
+div#container { display:inline-block; margin:10px auto; width:960px; }
+
+div#sidebar { color:white;background:#333; width:220px; display:inline; float:left; margin:0 3px 0 0; min-height:550px; position:relative; border:2px solid #618D43; }
+div#sidebar .error {margin-left:-35px;margin-top:-20px;color:red;font-size: 12px}
+div#sidebar .error ul {list-style:none}
+div#sidebar a#register_link {text-decoration: none; font-size: 13px; margin-left:145px;}
+div#sidebar a:hover#register_link {}
+
+div#sidebar #user_panel { font-family: "Mako";}
+div#sidebar #user_panel ul { list-style: none}
+div#sidebar #user_panel a { text-decoration:none;font-family: "Mako";}
+div#sidebar #user_panel a:hover{ font-weight:bold;font-family: "Mako";}
+div#sidebar #user_panel a:visited{ color:#4D9ED8;font-family: "Mako";}
+
+div#content{ background:#333; width:720px; display:inline; float:left; margin:0 0 0 9px; min-height:550px; position:relative;  border:2px solid #618D43; }
+div#content_title{font-family: "Fredoka One"; color:#D0EB6A ;padding:10px;}
+div#content_contents{padding:20px;}
+div#reasons { margin:0px 5px 0px;padding:5px;background:#efefaf;display:inline-block;width:200px; }
+div#reasons h2 { color:black;margin-top:-16px;text-align: center }
+ 
+div#head_name{}
+div#head_name h2{border-bottom:1px solid black;}
+div#side_navi{}
+div#side_navi #login_form {margin:1em;}
+div#side_navi #login_form input[type=text], input[type=password] {width: 54%}
+div#side_navi #login_form input[type=submit] {margin-top:5px;margin-bottom:3px;float:right;border: 1px; background: #4D9ED8; color: #e3e3e3; padding:.2em; cursor:pointer;}
+div#side_navi #login_form input[type=submit]:hover {background:#1F9CE8;}
+
+div#reg_form {}
+div#reg_form .error {color:red;font-size: 15px}
+div#reg_form .error ul {list-style:none}
+div#reg_form input[type=submit] {margin-top:5px;margin-bottom:3px;float:right;border: 1px; background: #4D9ED8; color: #e3e3e3; padding:.2em; cursor:pointer;}
+div#reg_form input[type=submit]:hover {background:#1F9CE8;}
+
+
+
+div#push { height:100px; }
+div#footer { background:#333; height:100px; text-align:center; }
+
+
+.shoppingCart table, th, td {
+
+	border:1px solid black;
+
+}
+
+.shoppingCart td { padding:5px ;}
+
+
+/** internet below **/
+
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+/** http://ryanfait.com/resources/footer-stick-to-bottom-of-page/ */
+
+/**ADMINSTRATOR AREA */
+
+
+
+
+
+
+
+
+.single {
+  float: left;
+}
+/* line 322, ../sass/screen.sass */
+.single a {
+  float: left;
+  display: block;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 7px;
+  line-height: 1em;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  margin-right: 40px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+/* line 332, ../sass/screen.sass */
+.single a img {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+/* line 335, ../sass/screen.sass */
+.single a:hover {
+  background-color: #8ad459;
+}
+
